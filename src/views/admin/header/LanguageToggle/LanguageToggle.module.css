@@ -1,0 +1,9 @@
+.langBut{
+    background:none;
+    outline: none;
+    color: black;
+}
+.langBut:hover{
+    background: none;
+    color: black;
+}

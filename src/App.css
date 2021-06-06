@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+/* .MuiStepIcon-root{
+    font-size: 5rem!important;
+    
+} */
+
+.Visible{
+    display: block;
+}
+
+.notVisible{
+    display: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* div,span,option,li,input {
+    font-family: 'Rubik', sans-serif
+
+} */
+
+
+
+@media screen and (min-width: 411px) {
+    p,button{
+        font-size:1.3rem!important;
+    }
+    th,td{
+        font-size: 1.2rem!important;
+    }
+}
+
+
+.MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+    font-size: 18px;
+}
+
+
+.MuiDialog-paperWidthSm {
+    /* max-width: 1400px!important; */
+}
+
+
+/* @media(max-width:411){
+    .makeStyles-root-275 .MuiStepper-root{
+        display: block!important;
+    }
+    .noDoc,button,th,td{
+        font-size: 1.12rem!important;
+    }
+} */
+
+
+
+
+/*select comp*/
+
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded{
+    /* top: 70%!important; */
+}
+/**/
+
+a.c-sidebar-nav-link{
+    font-size: 1.12em!important;
+}
+
+
+
+
+.h1{
+    font-size: 2em!important;
+}
+.h2{
+    font-size: 1.5em!important;
+}
+
+.h3{
+    font-size: 1.17em!important;
+}
+
+.h4{
+    font-size: 1em!important;
+}
+
+
+/* @media(max-width:411){
+    .responsiveButton span{
+        font-size: 0.5em!important;
+    }
+
+} */
+
+
+.errors{
+    font-size: 1.1rem;
+    color: #ff0000;
+    margin-top: 5px;
+    text-align: 'left';
+    
+}
+

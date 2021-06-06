@@ -1,0 +1,130 @@
+.wrapper{
+    text-align: center;
+    background-color: #F7F7F9;
+    height: 100vh;
+}
+
+
+.mainTitle{
+    text-transform: uppercase;
+    color: #454545;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mainTitle h1{
+    font-weight: bold;
+    color: #454545;
+    letter-spacing: 1px;
+    /* font-family: 'ProximaNovaBold'; */
+    /* font-size: 3.3rem; */
+}
+.mainTitle p{
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+.mainFormWrapper {
+    max-width: 600px;
+    /* outline: 2px solid #ccc; */
+    padding: 4% 5% 5% 5%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 12px 48px 0 rgb(14 40 135 / 12%);
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+
+.mainFormWrapper h2{
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    /* font-size: 1.5rem; */
+    letter-spacing: 1px;
+    /* font-family: 'ProximaNovaBold'; */
+}
+
+.mainFormWrapper .submit {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #2D4FCB;
+    border-radius: 3px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 1.3rem
+} 
+ .mainFormWrapper .submit:hover{
+    background-color: #0000dd;
+}
+.help a{
+    font-size: 1.2rem;
+}
+.guestMode a{
+    color: #fff; 
+}
+
+.guestMode{
+    border: 2px solid #2D4FCB;
+    padding : 10px 15px;
+    border-radius: 10px;
+    background-color:#2D4FCB;
+    color: #fff; 
+}
+.guestMode:hover{
+    border: 2px solid #2D4FCB;
+    padding : 10px 15px;
+    border-radius: 10px; 
+    background-color: #fff;
+    cursor: pointer;
+    color: #2D4FCB;
+}
+
+
+/* .guestMode a{
+    color: #2D4FCB;
+} */
+
+.reset{
+    color: #2D4FCB;
+}
+.reset:hover{
+    cursor: pointer;
+}
+
+
+/* info section */
+
+.infoSection{
+    margin-top: 65px;
+}
+
+.infoBlockHeader{
+    background-color: #ccc;
+}
+
+.selectButton h2{
+    font-family: Arial, Helvetica, sans-serif!important;
+    
+}
+
+.selectButton {}
+
+
+@media(max-width:387px){
+    .selectButton h2{
+        font-size: 1.17em!important
+    }
+
+}
+
+@media(max-width:363px){
+    .selectButton h2{
+        font-size: 0.9em!important
+    }
+    .selectButton svg {
+        font-size: 1.5em!important
+
+    }
+
+}

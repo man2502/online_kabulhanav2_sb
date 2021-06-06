@@ -1,0 +1,88 @@
+.c-sidebar{
+    background: #4A9529!important;
+    color: black;
+}
+
+
+.ui.dropdown .menu .selected.item, .ui.dropdown.selected{
+  background-color: #F0F0F0!important;
+}
+
+
+.ui.dropdown .menu>.item>.image, .ui.dropdown .menu>.item>img, .ui.dropdown>.text>.image, .ui.dropdown>.text>img{
+  width: 40px !important;
+  height: 27px !important;
+  vertical-align: middle!important
+}
+
+/**/
+
+
+/*loginPage*/
+.MuiButtonBase-root{
+    outline: none!important;
+}
+
+.MuiAccordion-root:before{
+    content: none!important;
+  }
+  
+  .MuiAccordion-rounded:first-child, .MuiAccordion-rounded:last-child{
+    border-top-left-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+    border-bottom-left-radius: 15px!important;
+    border-bottom-right-radius: 15px!important;
+  }
+  
+  
+  
+  .MuiTab-wrapper{
+    display: inline-block!important;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .MuiTab-wrapper svg{
+    margin-right: 5px;
+    font-size: 2rem;
+  
+  }
+  
+  .MuiTab-textColorPrimary.Mui-selected{
+    color:  #B3F7B3!important;
+  }
+  .MuiTab-textColorPrimary {
+    color: #9D9D9D!important
+  }
+  
+  
+  
+  @media (max-width: 528px){
+    .MuiTab-wrapper{
+      display: inline-flex!important;
+      text-align: text;
+      font-size: 0.8rem;
+  
+    }
+    .MuiTab-wrapper svg{
+      margin-right: 0px;
+      font-size: 1.3rem;
+    
+    }
+  
+  }
+
+
+.dropdown-menu .dropdown-item:active{
+  background: green!important;
+
+}
+.c-sidebar .c-sidebar-nav-item:hover{
+  // text-decoration: underline!important;
+  background: green!important;
+}
+
+.c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover{
+  background: green!important;
+
+}

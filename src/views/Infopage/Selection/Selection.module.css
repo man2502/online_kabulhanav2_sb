@@ -1,0 +1,7 @@
+.optionItem{
+    cursor: pointer;
+}
+
+.optionItem :hover{
+    background-color: #000;
+}
